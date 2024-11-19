@@ -4,7 +4,7 @@
 
     $user = "root";
     $pass = "";
-    $dbname = "mms";
+    $dbname = "Besashop";
     $host = "localhost";
 
     try{

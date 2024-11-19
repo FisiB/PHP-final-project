@@ -66,32 +66,10 @@
               Dashboard
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="list_movies.php">
-              <span data-feather="file"></span>
-              Movies
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="bookings.php">
-              <span ></span>
-              Bookings
-            </a>
-          </li>
+          
         </ul>
         <?php }else {?>
-          <li class="nav-item">
-              <a class="nav-link" href="home.php">
-               
-                Home
-              </a>
-            </li>
-          <li class="nav-item">
-          <a class="nav-link" href="bookings.php">
-            <span ></span>
-            Bookings
-          </a>
-        </li>
+        
         </ul>
       <?php
       } ?>
