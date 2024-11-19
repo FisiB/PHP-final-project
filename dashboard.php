@@ -69,7 +69,12 @@
           
         </ul>
         <?php }else {?>
-        
+          <li class="nav-item">
+              <a class="nav-link" href="home.php">
+               
+                Home
+              </a>
+            </li>
         </ul>
       <?php
       } ?>
