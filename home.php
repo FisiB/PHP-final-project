@@ -6,7 +6,7 @@
 	
    include_once('config.php');
 
-   $sql = "SELECT * FROM items";
+   $sql = "SELECT * FROM iteams";
    $selectProducts = $conn->prepare($sql);
    $selectProducts->execute();
    $product_data = $selectProducts->fetchAll();
@@ -89,7 +89,7 @@
       	<div class="col">
           <div class="card shadow-sm">
 
-            <img src="images/<?php echo $product_data ['image'];  ?>" height="350">
+            <img src="images<?php echo $product_data ['image'];  ?>" height="350">
 
             <div class="card-body">
               <h4><?php echo $product_data ['product_name']; ?></h4>
