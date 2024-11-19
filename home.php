@@ -72,8 +72,7 @@
         <h1 class="fw-light">Welcome to Besashop</h1>
         <p class="lead text-muted">Here we sell all kind of product rangeing from house equipment to work equipment.</p>
         <p>
-          <a href="#" class="btn btn-primary my-2"></a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+       
         </p>
       </div>
     </div>
