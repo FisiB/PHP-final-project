@@ -1,3 +1,9 @@
+<?php
+
+	header("Location:hello.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,7 +65,7 @@
 <body class="text-center">
 <main class="form-signin">
   <form action="register.php" method="post">
-    <img class="mb-4" src="fb12f560-3ea9-4edf-a883-ceb3a9787ba8.jpg" alt="" width="72" height="72">
+    <img class="mb-4" src="images/besashop.jpeg" alt="" width="72" height="72">
     <h1 class="h3 mb-3 fw-normal">Register</h1>
 
     <div class="form-floating">
