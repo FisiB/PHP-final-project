@@ -59,7 +59,7 @@
 <body class="text-center">
 <main class="form-signin">
   <form action="register.php" method="post">
-    <img class="mb-4" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1200px-Chelsea_FC.svg.png" alt="" width="72" height="72">
+    <img class="mb-4" src="fb12f560-3ea9-4edf-a883-ceb3a9787ba8.jpg" alt="" width="72" height="72">
     <h1 class="h3 mb-3 fw-normal">Register</h1>
 
     <div class="form-floating">
