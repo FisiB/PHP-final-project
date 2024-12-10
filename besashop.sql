@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 19, 2024 at 08:50 PM
+-- Generation Time: Dec 10, 2024 at 08:47 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.1.25
 
@@ -20,6 +20,20 @@ SET time_zone = "+00:00";
 --
 -- Database: `besashop`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `buy`
+--
+
+CREATE TABLE `buy` (
+  `id` int(5) NOT NULL,
+  `user_id` int(5) NOT NULL,
+  `product_id` int(5) NOT NULL,
+  `nr_items` int(10) NOT NULL,
+  `size` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -65,7 +79,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `surname`, `username`, `email`, `password`, `confirmpassword`, `isadmin`) VALUES
-(1, 'fis', 'fis', 'fis', 'fis@gmail.com', '$2y$10$xHmx0W76MLmfyjaUCdt81O1Q8kkkgSdQuW05f2M8NJR5ctYfXVI/a', '$2y$10$v8HYxOY6u5JurPs1zj0XjOXJAc6AvdtErbDIRxPSZ7pCaa/wuYisy', '');
+(1, 'fis', 'fis', 'fis', 'fis@gmail.com', '$2y$10$xHmx0W76MLmfyjaUCdt81O1Q8kkkgSdQuW05f2M8NJR5ctYfXVI/a', '$2y$10$v8HYxOY6u5JurPs1zj0XjOXJAc6AvdtErbDIRxPSZ7pCaa/wuYisy', ''),
+(2, 'fis', 'fis', 'fis', 'fis@gmail.com', '$2y$10$0kF5oH6R5EPsCB7Bdkl1pOAHLRAKwYpbZk1m36.1C0lKY3vBvF72e', '$2y$10$jrpaX8arRUU543hHJ0irgOLZiwVV6HLU5y2kfii9XI4cldfT3p9XG', '');
 
 --
 -- Indexes for dumped tables
@@ -97,7 +112,7 @@ ALTER TABLE `iteams`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
