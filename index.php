@@ -1,8 +1,4 @@
-<?php
 
-	header("Location:hello.php");
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
