@@ -84,7 +84,7 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-lg-5 col-md-5 col-sm-6">
-                    <div class="white-box text-center" style="width: 100%;height: 100%;"><img src="images/<?php echo $movie_data['movie_image'];  ?>" class="img-responsive" style="width: 70%; height: 90%;"></div>
+                    <div class="white-box text-center" style="width: 100%;height: 100%;"><img src="images/<?php echo $movie_data['image'];  ?>" class="img-responsive" style="width: 70%; height: 90%;"></div>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-6">
                     <h4 class="box-title mt-5"><?php echo $movie_data['product_name']; ?></h4>
