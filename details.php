@@ -93,17 +93,15 @@
                     <div class="form-floating">
                       <input type="number" class="form-control" id="floatingInput" placeholder="Number of products" name="nr_items" >
                       <label for="floatingInput">Number of products</label>
-                    </div>
                     <div class="form-floating">
-                      <input type="text" class="form-control" id="floatingInput" placeholder="Size" name="size" >
-                      <label for="floatingInput">Size</label>
-                    </div>
-                    <div class="form-floating">
+			<div>
+			<label>Size</label>
                       <select name="size">
                         <option value="small">Small</option>
                         <option value="medium">Medium</option>
                         <option value="large">Large</option>
                       </select>
+			</div>
                     </div>
                     <button class="w-100 btn btn-lg btn-primary" type="submit" name="submit">Buy</button>
                   </form>
