@@ -2,8 +2,8 @@
   
    include_once('config.php');
    $id = $_GET['id'];
-   $_SESSION['movie_id'] = $id;
-   $sql = "SELECT * FROM movies WHERE id=:id";
+   $_SESSION['product_id'] = $id;
+   $sql = "SELECT * FROM iteams WHERE id=:id";
    $selectMovie = $conn->prepare($sql);
    $selectMovie->bindParam(":id",$id);
    $selectMovie->execute();
@@ -89,7 +89,7 @@
                 <div class="col-lg-7 col-md-7 col-sm-6">
                     <h4 class="box-title mt-5"><?php echo $movie_data['product_name']; ?></h4>
                     <p><?php echo $movie_data['product_desc']; ?></p>
-                    <form action="book.php" method="post">
+                    <form action="buy.php" method="post">
                     <div class="form-floating">
                       <input type="number" class="form-control" id="floatingInput" placeholder="Number of products" name="nr_items" >
                       <label for="floatingInput">Number of products</label>
@@ -105,7 +105,7 @@
                         <option value="large">Large</option>
                       </select>
                     </div>
-                    <button class="w-100 btn btn-lg btn-primary" type="submit" name="submit">Book</button>
+                    <button class="w-100 btn btn-lg btn-primary" type="submit" name="submit">Buy</button>
                   </form>
                 </div>
             </div>
