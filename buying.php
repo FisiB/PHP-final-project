@@ -84,9 +84,9 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="list_movies.php">
+            <a class="nav-link" href="details.php">
               <span data-feather="file"></span>
-              Movies
+             Buy
             </a>
           </li>
           
